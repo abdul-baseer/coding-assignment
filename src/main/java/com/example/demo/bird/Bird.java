@@ -1,11 +1,13 @@
-package com.example.demo;
+package com.example.demo.bird;
+
+import com.example.demo.Animal;
 
 /**
  * @author baseer
  * Date: 02/02/2020
  */
 public abstract class Bird implements Animal {
-    void fly() {
+    public void fly() {
         System.out.println("I am flying");
     }
 

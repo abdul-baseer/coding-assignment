@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.bird;
 
 import javax.naming.OperationNotSupportedException;
 
@@ -6,11 +6,11 @@ import javax.naming.OperationNotSupportedException;
  * @author baseer
  * Date: 02/02/2020
  */
-public class Duck extends Bird {
+public class Chicken extends Bird {
 
     @Override
     public String sing() {
-        return "Quack Quack";
+        return "Cluck Cluck";
     }
 
     @Override
@@ -25,6 +25,6 @@ public class Duck extends Bird {
 
     @Override
     Boolean canSwim() {
-        return true;
+        return false;
     }
 }

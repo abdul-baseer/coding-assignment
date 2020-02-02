@@ -1,6 +1,7 @@
 package com.example.demo;
 
 
+import com.example.demo.bird.Bird;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

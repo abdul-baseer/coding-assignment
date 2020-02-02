@@ -1,5 +1,8 @@
 package com.example.demo;
 
+import com.example.demo.bird.Bird;
+import com.example.demo.bird.Duck;
+
 /**
  * @author baseer
  * Date: 02/02/2020
