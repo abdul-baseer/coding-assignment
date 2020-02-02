@@ -44,3 +44,10 @@ C) Override swim method to return a true value for Fish
 ### Part-2
 
 A,B,C,D) Made special classes for Shark and Clownfish which will override and describe their own size, colour and behaviour of what they do
+
+### Part-3
+
+A) We can do composition for Dolphin to be a fish
+
+B) There can be multiple ways to do it. Abstract classes or default methods can be used to avoid duplicate code
+ 
