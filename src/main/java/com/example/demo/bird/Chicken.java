@@ -14,12 +14,12 @@ public class Chicken extends Bird {
     }
 
     @Override
-    String sing(String habitat) throws Exception {
+    public String sing(String habitat) throws Exception {
         throw new OperationNotSupportedException();
     }
 
     @Override
-    Boolean canFly() {
+    public Boolean canFly() {
         return false;
     }
 

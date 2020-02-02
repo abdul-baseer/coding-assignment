@@ -51,3 +51,9 @@ A) We can do composition for Dolphin to be a fish
 
 B) There can be multiple ways to do it. Abstract classes or default methods can be used to avoid duplicate code
  
+
+## Question D
+
+### Part-1
+
+A, B) Butterfly class made with special functions existing only in butterfly
