@@ -6,6 +6,9 @@ package com.example.demo;
  */
 public interface Animal {
 
+    Boolean canWalk();
+    Boolean canFly();
+    Boolean canSing();
     Boolean canSwim();
 
 }

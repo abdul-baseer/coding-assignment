@@ -13,11 +13,17 @@ public class Butterfly implements Animal {
         return false;
     }
 
+    @Override
+    public Boolean canWalk() {
+        return false;
+    }
+
     public Boolean canFly() {
         return true;
     }
 
-    public Boolean makeSound() {
+    @Override
+    public Boolean canSing() {
         return false;
     }
 }

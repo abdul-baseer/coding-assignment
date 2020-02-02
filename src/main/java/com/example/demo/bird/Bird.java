@@ -20,8 +20,4 @@ public abstract class Bird implements Animal {
     }
 
     public abstract String sing(String habitat) throws Exception;
-
-    public abstract Boolean canFly();
-
-    public abstract Boolean canSwim();
 }

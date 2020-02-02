@@ -12,6 +12,21 @@ public class Fish implements Animal {
     public String colour;
     public String behaviour;
 
+    @Override
+    public Boolean canWalk() {
+        return false;
+    }
+
+    @Override
+    public Boolean canFly() {
+        return false;
+    }
+
+    @Override
+    public Boolean canSing() {
+        return false;
+    }
+
     public Boolean canSwim() {
         return true;
     }

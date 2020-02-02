@@ -11,6 +11,21 @@ public class Dolphin implements Animal {
     Fish fish;
 
     @Override
+    public Boolean canWalk() {
+        return false;
+    }
+
+    @Override
+    public Boolean canFly() {
+        return false;
+    }
+
+    @Override
+    public Boolean canSing() {
+        return false;
+    }
+
+    @Override
     public Boolean canSwim() {
         return true;
     }

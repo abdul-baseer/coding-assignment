@@ -20,7 +20,17 @@ public class Parrot extends Bird {
     }
 
     @Override
+    public Boolean canWalk() {
+        return true;
+    }
+
+    @Override
     public Boolean canFly() {
+        return true;
+    }
+
+    @Override
+    public Boolean canSing() {
         return true;
     }
 

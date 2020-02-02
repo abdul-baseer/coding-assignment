@@ -19,8 +19,18 @@ public class Duck extends Bird {
     }
 
     @Override
+    public Boolean canWalk() {
+        return true;
+    }
+
+    @Override
     public Boolean canFly() {
         return false;
+    }
+
+    @Override
+    public Boolean canSing() {
+        return true;
     }
 
     @Override

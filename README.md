@@ -57,3 +57,12 @@ B) There can be multiple ways to do it. Abstract classes or default methods can 
 ### Part-1
 
 A, B) Butterfly class made with special functions existing only in butterfly
+
+## Question E
+
+### Part-1
+
+Refactored the code as previously I went to generalize the code as not to add a fly method in Fish etc.
+But I then refactored and added all methods of can to Animal class so that I can have a count for part E
+
+A, B, C, D) Every animal has their own implementation of the can methods defined in Animal class. It returns a boolean value through which i can have a count of these things
