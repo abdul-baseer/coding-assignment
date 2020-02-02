@@ -14,6 +14,8 @@ public abstract class Bird implements Animal {
         return "I am singing";
     }
 
+    abstract String sing(String habitat) throws Exception;
+
     abstract Boolean canFly();
 
     abstract Boolean canSwim();
