@@ -40,3 +40,7 @@ D) We can have multiple implementations and decide the implementation to be call
 A, B) Moved sing and walk method from Animal class to Bird as this functionality is specifc to Birds
 
 C) Override swim method to return a true value for Fish
+
+### Part-2
+
+A,B,C,D) Made special classes for Shark and Clownfish which will override and describe their own size, colour and behaviour of what they do
