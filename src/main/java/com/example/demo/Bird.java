@@ -4,7 +4,7 @@ package com.example.demo;
  * @author baseer
  * Date: 02/02/2020
  */
-public class Bird implements Animal {
+public abstract class Bird implements Animal {
     void fly() {
         System.out.println("I am flying");
     }
@@ -13,4 +13,8 @@ public class Bird implements Animal {
     public String sing() {
         return "I am singing";
     }
+
+    abstract Boolean canFly();
+
+    abstract Boolean canSwim();
 }
