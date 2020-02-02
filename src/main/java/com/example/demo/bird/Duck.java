@@ -24,7 +24,7 @@ public class Duck extends Bird {
     }
 
     @Override
-    Boolean canSwim() {
+    public Boolean canSwim() {
         return true;
     }
 }

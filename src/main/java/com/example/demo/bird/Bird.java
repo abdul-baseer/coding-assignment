@@ -11,7 +11,10 @@ public abstract class Bird implements Animal {
         System.out.println("I am flying");
     }
 
-    @Override
+    public void walk(){
+        System.out.println("I am walking");
+    }
+
     public String sing() {
         return "I am singing";
     }
@@ -19,6 +22,4 @@ public abstract class Bird implements Animal {
     abstract String sing(String habitat) throws Exception;
 
     abstract Boolean canFly();
-
-    abstract Boolean canSwim();
 }

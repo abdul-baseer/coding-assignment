@@ -33,3 +33,10 @@ A,B,C) To make this less complex we can have a overloaded mehtod for sing which 
 D) We can have multiple implementations and decide the implementation to be called by strategy design pattern. The benifit of that will be in case we add more type of parrots we just need to add their implementation, which will allow us to add the code and no existing code will be modified. All other implementations will remain same. Just the strategy method deciding which implementation to call will be modified
 
 
+## Question B
+
+### Part-1
+
+A, B) Moved sing and walk method from Animal class to Bird as this functionality is specifc to Birds
+
+C) Override swim method to return a true value for Fish

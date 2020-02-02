@@ -24,7 +24,7 @@ public class Chicken extends Bird {
     }
 
     @Override
-    Boolean canSwim() {
+    public Boolean canSwim() {
         return false;
     }
 }

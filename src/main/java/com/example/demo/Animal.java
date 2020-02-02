@@ -6,10 +6,6 @@ package com.example.demo;
  */
 public interface Animal {
 
-    String sing();
-    default void walk(){
-        System.out.println("I am walking");
-    }
-
+    Boolean canSwim();
 
 }
